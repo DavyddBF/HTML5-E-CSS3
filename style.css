@@ -188,6 +188,20 @@ td, th {
   width: 120px;
   float: left;
   margin: 0 20px 20px 0; /* Cima, direita, baixo, esquerda */
+  transform: translateY(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .mapa {
