@@ -1,0 +1,23 @@
+.caixa__navegacao {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
+  
+  .caixa__navegacao li {
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  
+  .caixa__navegacao a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  .caixa__navegacao a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+  }
